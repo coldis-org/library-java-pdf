@@ -18,6 +18,7 @@
 	<name>DTO utilities</name>
 
 	<properties>
+		<project.config.source.test.compile.annotationProcessors>org.coldis.library.dto.DtoGenerator</project.config.source.test.compile.annotationProcessors>
 	</properties>
 
 	<scm>
