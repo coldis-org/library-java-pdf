@@ -29,7 +29,7 @@ public @interface DtoType {
 	/**
 	 * Template relative path (from resources).
 	 */
-	public String templatePath() default "template/dto/JavaDto.java";
+	public String templatePath() default "dto/template/JavaDto.java";
 
 	/**
 	 * The DTO file extension.
