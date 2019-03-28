@@ -11,20 +11,19 @@
 	</parent>
 
 	<groupId>org.coldis.library</groupId>
-	<artifactId>utils-dto</artifactId>
+	<artifactId>utils-pdf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>DTO utilities</name>
+	<name>PDF utilities</name>
 
 	<properties>
-		<project.config.source.test.compile.annotationProcessors>org.coldis.library.dto.DtoGenerator</project.config.source.test.compile.annotationProcessors>
 	</properties>
 
 	<scm>
-		<url>https://github.com/coldis-org/utils-dto</url>
-		<connection>scm:git:https://github.com/coldis-org/utils-dto.git</connection>
-		<developerConnection>scm:git:git@github.com:coldis-org/utils-dto.git</developerConnection>
+		<url>https://github.com/coldis-org/utils-pdf</url>
+		<connection>scm:git:https://github.com/coldis-org/utils-pdf.git</connection>
+		<developerConnection>scm:git:git@github.com:coldis-org/utils-pdf.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -37,43 +36,22 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-annotations</artifactId>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<scope>test</scope>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itext-pdfa</artifactId>
 		</dependency>
-
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
+			<groupId>com.itextpdf.tool</groupId>
+			<artifactId>xmlworker</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.velocity</groupId>
-			<artifactId>velocity</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-api</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-engine</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-params</artifactId>
+			<groupId>org.coldis.library</groupId>
+			<artifactId>utils-test</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 
