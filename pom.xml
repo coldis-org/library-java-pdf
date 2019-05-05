@@ -6,12 +6,12 @@
 
 	<parent>
 		<groupId>org.coldis</groupId>
-		<artifactId>common-config</artifactId>
+		<artifactId>configuration</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<groupId>org.coldis.library</groupId>
-	<artifactId>utils-pdf</artifactId>
+	<artifactId>pdf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -21,9 +21,9 @@
 	</properties>
 
 	<scm>
-		<url>https://github.com/coldis-org/utils-pdf</url>
-		<connection>scm:git:https://github.com/coldis-org/utils-pdf.git</connection>
-		<developerConnection>scm:git:git@github.com:coldis-org/utils-pdf.git</developerConnection>
+		<url>https://github.com/coldis-org/library-java-pdf</url>
+		<connection>scm:git:https://github.com/coldis-org/library-java-pdf.git</connection>
+		<developerConnection>scm:git:git@github.com:coldis-org/library-java-pdf.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -31,7 +31,7 @@
 
 		<dependency>
 			<groupId>org.coldis.library</groupId>
-			<artifactId>utils-core</artifactId>
+			<artifactId>core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
@@ -50,7 +50,7 @@
 
 		<dependency>
 			<groupId>org.coldis.library</groupId>
-			<artifactId>utils-test</artifactId>
+			<artifactId>test</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
